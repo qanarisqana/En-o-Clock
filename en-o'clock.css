@@ -1,0 +1,221 @@
+body {
+    background: #dde8ff;
+    font-family: Verdana;
+}
+
+
+* h2 {
+    border: 7px dashed #FFAD60;
+    border-width: 3px;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #FCFAEE;
+    color: #CB6040;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url(image/enhypenkitchen.jpg) center/cover no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+    color: #CB6040;
+    height: 100%;
+}
+
+.hero-text {
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #FCFAEE;
+    font-weight: bold;
+
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #A66E38;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Hero section end */
+
+
+/* navbar */
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800px;
+    width: bold;
+    float: left;
+    font-family: 'Courier New', Courier;
+    color: #A66E38;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:#FFEEAD;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #A66E38;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px ;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px 0px 20px 0px;
+}
+ /* navbar end */
+
+
+/* About Section */
+.about {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 20px;
+    text-align-last: center;
+    text-align: justify;
+}
+
+ /* card */
+.card {
+    display: flex;
+    justify-content: center; /* Mengatur agar kotak berada di tengah secara horizontal */
+    gap: 20px;               /* Jarak antar kotak */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 700px;        /* Batas lebar card */
+    margin: 0 auto;          /* Mengatur card di tengah halaman */
+}
+
+/* setiap kotak gambar */
+.image-card {
+    background-color: #edfaf4;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow untuk setiap kotak gambar */
+}
+
+/* gambar di dalam kotak */
+.image-card img {
+    width: 100px;       /* Atur ukuran gambar */
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Opsional: membuat sudut gambar melengkung */
+}
+.card img {
+    width: 180px;
+    height: 270px;
+    border-radius: 10px;
+    
+}
+
+/* Episode Section */
+.episode {
+    padding: 30px 20px;
+    text-align: center;
+    background: url(image/enhypenheader.jpg) center/cover no-repeat;
+}
+.episode h2{
+    box-shadow: #ecf3e1;
+}
+
+.wrapper {
+    padding-inline-start: 20%;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    background-color: #ecf3e1;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.text {
+    flex: 1;
+    padding-right: 20px;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 1,5;
+    font-size: 20px;
+    padding-inline: 20px;
+    padding-top: 10%;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.viddeos iframe{
+    border-radius: 20%;
+}
+/* Video Favorite */
+
+
+
+/* Footer */
+.footer {
+    background-color: #FFEEAD;
+    color: #A66E38;
+    padding: 30px 20px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* footer copyright end */
